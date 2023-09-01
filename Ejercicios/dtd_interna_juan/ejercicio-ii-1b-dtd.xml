@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
+<!-- ejercicio-ii-1b-dtd.xml-MN18015-->
+<!DOCTYPE fichero_v2 [
+    <!ELEMENT fichero_v2 (ficha+)>
+    <!ELEMENT ficha (nombre, apellido, direccion*, DUI?, edad?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre genero (masculino|femenino) #REQUIRED>
+    <!ATTLIST nombre edad CDATA #IMPLIED>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT DUI (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+]>
+<fichero_v2>
+    <ficha>
+        <nombre genero="masculino" edad="25">Juan</nombre>
+        <apellido>Gomez</apellido>
+        <direccion>Calle del Sol, 123</direccion>
+        <DUI>123456789</DUI>
+        <edad>25</edad>
+    </ficha>
+</fichero_v2>

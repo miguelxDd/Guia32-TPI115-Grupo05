@@ -1,0 +1,9 @@
+<!ELEMENT fichero_v2 (ficha+)>
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?, edad?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre genero (masculino|femenino) #REQUIRED>
+<!ATTLIST nombre edad CDATA #IMPLIED>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT DUI (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>

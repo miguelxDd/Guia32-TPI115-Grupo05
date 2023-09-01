@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "tareas.dtd">
+<?xml-stylesheet type="text/css" href="tareas.css"?>
+<universidad atributoFijo="UES">
+  <facultad>
+    <nombre>Ingenieria y Arquitectura</nombre>
+    <codigo>(FAC123) - </codigo>
+  </facultad>
+  <carrera>
+    <nombre>Ingenieria en Sistemas Informaticos</nombre>
+    <codigo>(EISI115) - </codigo>
+  </carrera>
+  <materia>Teoria de Sistemas</materia>
+  <grupo tipoFormacion="GT">
+    <formacion>Teórico</formacion>
+    <numero>1</numero>
+    <profesor>- Carlos Ernesto Garcia</profesor>
+    <actividad porcentaje="10"> - La Parabola de la Rana</actividad>
+    <integrante atributoOpcional="valorOpcional" atributoRequerido="valorRequerido">
+      <carne>MN18015 - </carne>
+      <nombres>Juan</nombres>
+      <apellidos>Mendez - </apellidos>
+      <sexo>M</sexo>
+    </integrante>
+     <integrante atributoOpcional="valorOpcional" atributoRequerido="valorRequerido">
+      <carne>CE18014 - </carne>
+      <nombres>Ada</nombres>
+      <apellidos>Cabezas - </apellidos>
+      <sexo>F</sexo>
+    </integrante>
+     <integrante atributoOpcional="valorOpcional" atributoRequerido="valorRequerido">
+      <carne>CV20003 - </carne>
+      <nombres>Jose</nombres>
+      <apellidos>Chavez - </apellidos>
+      <sexo>M</sexo>
+    </integrante>
+     <integrante atributoOpcional="valorOpcional" atributoRequerido="valorRequerido">
+      <carne>AC170032 - </carne>
+      <nombres>Esteban</nombres>
+      <apellidos>Casco - </apellidos>
+      <sexo>M</sexo>
+    </integrante>
+    <!-- ... otros integrantes ... -->
+  </grupo>
+  <!-- ... otros grupos ... -->
+</universidad>

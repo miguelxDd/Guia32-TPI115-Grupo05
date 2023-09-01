@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ficha_v2 {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+nombre {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+apellido, direccion, DUI, edad {
+    margin-top: 5px;
+    color:blueviolet;
+}
+
+genero[masc]::before {
+    content: "(Género masculino) ";
+    color: blue;
+}
+
+genero[fem]::before {
+    content: "(Género femenino) ";
+    color: pink;
+}
+
+edad::before {
+    content: "Edad: ";
+    color: green;
+}

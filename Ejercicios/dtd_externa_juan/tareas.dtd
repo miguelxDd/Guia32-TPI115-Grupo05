@@ -1,0 +1,26 @@
+<!ELEMENT universidad (facultad, carrera, materia, grupo+)>
+<!ATTLIST universidad atributoFijo CDATA #FIXED "ValorFijo">
+
+<!ELEMENT facultad (nombre, codigo)>
+<!ELEMENT carrera (nombre, codigo)>
+<!ELEMENT materia (#PCDATA)>
+
+<!ELEMENT grupo (formacion, numero, profesor, actividad*, integrante+)>
+<!ATTLIST grupo tipoFormacion (GT|GL|GD) #REQUIRED>
+
+<!ELEMENT formacion (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+
+<!ELEMENT actividad (#PCDATA)>
+<!ATTLIST actividad porcentaje CDATA #IMPLIED>
+
+<!ELEMENT integrante (carne, nombres, apellidos, sexo)>
+<!ATTLIST integrante atributoOpcional CDATA #IMPLIED>
+<!ATTLIST integrante atributoRequerido CDATA #REQUIRED>
+
+<!ELEMENT carne (#PCDATA)>
+<!ELEMENT nombres (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+<!ATTLIST sexo valorDefecto (M|F) "M">

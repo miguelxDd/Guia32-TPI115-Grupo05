@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
+<!DOCTYPE fichero_v2 SYSTEM "ejercicio-ii-1b-dtd.dtd">
+<fichero_v2>
+    <ficha>
+        <nombre genero="masculino" edad="25">Juan</nombre>
+        <apellido>Gomez</apellido>
+        <direccion>Calle del Sol, 123</direccion>
+        <DUI>123456789</DUI>
+        <edad>25</edad>
+    </ficha>
+</fichero_v2>

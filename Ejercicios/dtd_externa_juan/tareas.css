@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+universidad {
+    display: block;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Estilos para los elementos */
+nombre, codigo, formacion {
+    font-weight: bold;
+    
+}
+
+grupo {
+    display: block;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+integrante {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los atributos */
+[atributoFijo]::before {
+    content: 'Atributo Fijo: ';
+    font-weight: bold;
+    color: #FF4500;
+}
+
+[atributoOpcional]::before {
+    content: 'Atributo Opcional: ';
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+[atributoRequerido]::before {
+    content: 'Atributo Requerido: ';
+    font-weight: bold;
+    color: #FF0000;
+}
+
+/* Estilos para los porcentajes */
+actividad::after {
+    content: ' (' attr(porcentaje) '%)';
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #FF4500;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #FF8C00;
+    
+}
