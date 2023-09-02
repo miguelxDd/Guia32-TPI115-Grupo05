@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<!--  ejemplodtd2-William Ventura  -->
 <!DOCTYPE fichero SYSTEM "fichero.dtd">
 <fichero>
  <ficha>
   <nombre sexo="masculino">
-         Angel
+         William
   </nombre>
-  <apellido>Barbero</apellido>
-  <direccion>c/Ulises, 36</direccion>
+  <apellido>Ventura</apellido>
+  <direccion>Ayutuxtepeque, San Salvador</direccion>
 </ficha>
 </fichero>
