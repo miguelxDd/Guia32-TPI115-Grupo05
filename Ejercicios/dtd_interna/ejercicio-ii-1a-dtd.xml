@@ -18,7 +18,7 @@
 ]>
 <fichero>
     <ficha_v2>
-        <nombre genero="masculino" edad="25">Juan</nombre>
+        <nombre genero="masculino" edad="25">Grupo #05</nombre>
         <apellido>Gomez</apellido>
         <direccion>Calle del Sol, 123</direccion>
         <DUI>123456789</DUI>
@@ -26,6 +26,4 @@
        
     </ficha_v2>
 </fichero>
-<?xml-stylesheet type="text/xsl" href="index.html"?>
-
 

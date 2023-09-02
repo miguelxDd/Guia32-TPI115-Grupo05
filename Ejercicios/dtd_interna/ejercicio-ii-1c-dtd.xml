@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="ejercicio-ii-1c-dtd.css"?>
-<!-- ejercicio-ii-1c-dtd.xml-MN18015-->
+<!-- ejercicio-ii-1c-dtd.xml-Grupo#05-->
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
 		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
