@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="ejercicio-ii-1b-dtd.css"?>
-<!-- ejercicio-ii-1b-dtd.xml-MN18015-->
+<!-- ejercicio-ii-1b-dtd.xml-Grupo#05-->
 <!DOCTYPE fichero_v2 [
     <!ELEMENT fichero_v2 (ficha+)>
     <!ELEMENT ficha (nombre, apellido, direccion*, DUI?, edad?)>
@@ -14,7 +14,7 @@
 ]>
 <fichero_v2>
     <ficha>
-        <nombre genero="masculino" edad="25">Juan</nombre>
+        <nombre genero="masculino" edad="25">Grupo #05</nombre>
         <apellido>Gomez</apellido>
         <direccion>Calle del Sol, 123</direccion>
         <DUI>123456789</DUI>
