@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="ejercicio-ii-1a-dtd.css"?>
-<!-- ejercicio-ii-1a-dtd.xml-MN18015-->
+<!-- ejercicio-ii-1a-dtd.xml-Grupo#05-->
 <!DOCTYPE fichero [
     <!ELEMENT fichero (ficha+)>
     <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
@@ -23,5 +23,9 @@
         <direccion>Calle del Sol, 123</direccion>
         <DUI>123456789</DUI>
         <edad>25</edad>
+       
     </ficha_v2>
 </fichero>
+<?xml-stylesheet type="text/xsl" href="index.html"?>
+
+
