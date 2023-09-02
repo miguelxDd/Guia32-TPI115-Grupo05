@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Nuggets de Pollo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- Agregar Bootstrap CSS (puedes enlazar a la CDN de Bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="fondo">
+    <div class="container">
+        <br>
+        <h1 class="text-center">Receta de Nuggets de Pollo</h1>
+        <div class="container mt-5 estilo-div" id="ingredientes">
+            <h2 class="text-center">Ingredientes</h2>
+            <!-- Aquí se mostrarán los ingredientes XML -->
+        </div>
+
+        <div class="container mt-5 estilo-div" id="preparacion">
+            <h2 class="text-center">Preparación</h2>
+            <!-- Aquí se mostrará la preparación XML -->
+        </div>
+        <br>
+        <h6 class="text-center">Receta obtenida en:  https://www.recetasderechupete.com/nuggets-de-pollo-caseros/9773</h6>
+        <br>
+        <br>
+    </div>
+
+    <script>
+        // Cargar y mostrar datos del archivo XML
+        fetch('recetaXML.xml')  // Reemplaza 'ruta/al/archivo.xml' con la ubicación real de tu archivo XML
+            .then(response => response.text())
+            .then(xmlText => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+
+                const ingredientesSection = document.getElementById('ingredientes');
+                const preparacionSection = document.getElementById('preparacion');
+
+                const ingredientes = xmlDoc.getElementsByTagName('ingredientes')[0];
+                const preparacion = xmlDoc.getElementsByTagName('preparacion')[0];
+
+                // Mostrar ingredientes
+                const ingredientesList = ingredientes.getElementsByTagName('*');
+                for (const ingrediente of ingredientesList) {
+                    ingredientesSection.innerHTML += `<p>${ingrediente.tagName}: ${ingrediente.textContent}</p>`;
+                }
+
+                // Mostrar preparación
+                const pasos = preparacion.getElementsByTagName('paso');
+                for (const paso of pasos) {
+                    preparacionSection.innerHTML += `<p>${paso.textContent}</p>`;
+                }
+            })
+            .catch(error => {
+                console.error('Error al cargar el archivo XML:', error);
+            });
+    </script>
+
+    <!-- Agregar Bootstrap JS (puedes enlazar a la CDN de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

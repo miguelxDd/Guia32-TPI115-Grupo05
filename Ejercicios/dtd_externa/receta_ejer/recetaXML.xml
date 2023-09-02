@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta SYSTEM "recetaDTD.dtd">
+<receta>
+  <ingredientes>
+    <pechugas>2 pechugas de pollo grandes (1/2 Kg. aprox.)</pechugas>
+    <queso>175 g. de queso crema tipo Philadelphia</queso>
+    <sal>Sal al gusto</sal>
+    <rebozado>
+      <huevos>2 huevos</huevos>
+      <harina>4 cucharadas de harina de trigo</harina>
+      <pan_rallado>4 cucharadas de pan rallado</pan_rallado>
+      <aceite>Aceite de oliva virgen extra suave para freír</aceite>
+    </rebozado>
+  </ingredientes>
+  <preparacion>
+    <paso>Limpiamos las pechugas de posibles restos de grasa que puedan tener y las cortamos en trozos de unos 2 cm. Pasamos los trozos de pollo por una picadora hasta que estén totalmente deshechos y formen una pasta.</paso>
+    <paso>Mezclamos el pollo con el queso crema y la sal, hasta que esté bien integrado. Con la mano hacemos pequeñas porciones con esta masa.</paso>
+    <paso>Vamos a empanar nuestros nuggets, en este caso el clásico rebozado, pasándolos por harina, huevo y pan rallado. La harina ayuda a que el huevo se adhiera mejor a la carne, y el huevo actúa como pegamento para fijar el pan rallado al nugget. Hay quien da una capa y hay quien prefiere usar dos. Lo mejor es rebozar en una sola capa para que el envoltorio del nugget no sea demasiado grueso. Así resultan más ligeros y absorben menos aceite en la fritura.</paso>
+    <paso>Para obtener unos nuggets más crujientes, mejor que el pan rallado molido podemos usar pan rallado crujiente que venden en cualquier supermercado o gran superficie.</paso>
+    <paso>Para freír nos interesan aceites con alto punto de humo y que sean suaves para no aportar demasiado sabor al pollo. Estos aceites nos permitirán freír a alta temperatura, que nos proporcionará un empanado crujiente tras un corto proceso de fritura. Así conseguiremos que el interior quede más jugoso. Cuando tengamos todos los nuggets preparados calentamos abundante aceite en una sartén y los vamos friendo.</paso>
+    <paso>Siempre en tandas pequeñas a temperatura media para no bajar en exceso la temperatura del aceite. Es importante que el aceite no esté muy caliente al freírlos. Así evitamos que se queden muy tostados por fuera y crudos por dentro.</paso>
+    <paso>Retiramos a una bandeja con papel de cocina para absorber el aceite sobrante. Servimos acompañados de la salsa que más nos guste. Ya veréis como los preparáis varias veces en casa, están de rechupete.</paso>
+  </preparacion>
+</receta>
+

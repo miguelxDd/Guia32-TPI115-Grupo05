@@ -1,0 +1,12 @@
+﻿
+.estilo-div{
+    background-color: #FFFFFF;
+    background-color: white; /* Color de fondo */
+    border-radius: 15px; /* Radio de las esquinas redondeadas */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra con desplazamiento */
+    margin: 20px; /* Margen exterior */
+    padding: 50px !important; /* Espacio interno */
+}
+.fondo{
+    background: #e8ecf4;
+}

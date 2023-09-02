@@ -1,0 +1,14 @@
+<!-- recetaDTD.dtd -->
+<!ELEMENT receta (ingredientes, preparacion)>
+<!ELEMENT ingredientes (pechugas, queso, sal, rebozado)>
+<!ELEMENT pechugas (#PCDATA)>
+<!ELEMENT queso (#PCDATA)>
+<!ELEMENT sal (#PCDATA)>
+<!ELEMENT rebozado (huevos, harina, pan_rallado, aceite)>
+<!ELEMENT huevos (#PCDATA)>
+<!ELEMENT harina (#PCDATA)>
+<!ELEMENT pan_rallado (#PCDATA)>
+<!ELEMENT aceite (#PCDATA)>
+<!ELEMENT preparacion (paso+)>
+<!ELEMENT paso (#PCDATA)>
+
