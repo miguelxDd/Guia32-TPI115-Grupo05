@@ -15,6 +15,6 @@
  <ficha>
   <nombre sexo="femenino" edad="17">Angelina</nombre>
   <apellido>Fernandez</apellido>
-  <direccion>c/Ulises, 36</direccion>
+  <direccion>Ulises, 36</direccion>
  </ficha>
 </fichero>

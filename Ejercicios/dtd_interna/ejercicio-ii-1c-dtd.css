@@ -1,4 +1,46 @@
-﻿* {display:block;}
+﻿/* {display:block;}
 nombre[sexo]::before {content: " (Genero " attr(sexo) " ) ";color:blue;font-size:3mm;}
-nombre[sexo]::after {content: " sexo: " attr(sexo);color:red;}
+nombre[sexo]::after {content: " sexo: " attr(sexo);color:red;}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ficha {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #da1111;
+    border-radius: 5px;
+    background-color: rgb(39, 199, 228); /* Cambio del fondo a rojo */
+}
+
+nombre {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+apellido, direccion, DUI, edad {
+    margin-top: 5px;
+}
+
+genero[masculino]::before {
+    content: "(Género masculino) ";
+    color: blue;
+}
+
+genero[femenino]::before {
+    content: "(Género femenino) ";
+    color: pink;
+}
+
+edad::before {
+    content: "Edad: ";
+    color: rgb(86, 182, 86);
+}
+
+
 
